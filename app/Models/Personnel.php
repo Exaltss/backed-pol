@@ -17,10 +17,12 @@ class Personnel extends Model
         'nrp',
         'pangkat',
         'foto_profil',
-        'status_aktif',       // offline, online, patroli, siaga, darurat
+        'status_aktif',
         'latitude',
         'longitude',
         'last_location_update',
+        'speed',    // ← kecepatan (m/s) untuk interpolasi smooth
+        'heading',  // ← arah hadap (0-360 derajat) untuk interpolasi smooth
     ];
 
     public function user()
@@ -33,10 +35,6 @@ class Personnel extends Model
         return $this->hasMany(Report::class, 'personnel_id');
     }
 
-    // --- TAMBAHKAN RELASI INI ---
-    /**
-     * Relasi ke Model Schedule (Satu personel punya banyak jadwal)
-     */
     public function schedules()
     {
         return $this->hasMany(Schedule::class, 'personnel_id');

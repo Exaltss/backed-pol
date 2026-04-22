@@ -16,3 +16,354 @@
 [31-Mar-2026 17:52:27 UTC] PHP Warning:  symlink(): No such file or directory in /home/tulgungp/public_html/public/link.php on line 19
 [31-Mar-2026 17:54:53 UTC] PHP Warning:  symlink(): No such file or directory in /home/tulgungp/public_html/public/link.php on line 19
 [31-Mar-2026 17:55:56 UTC] PHP Warning:  symlink(): No such file or directory in /home/tulgungp/public_html/public/link.php on line 19
+[19-Apr-2026 17:03:14 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:14 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:15 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:15 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:17 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:17 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:17 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:17 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:17 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:17 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:18 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:18 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:19 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:19 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:19 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:19 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:19 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:19 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:19 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:19 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:20 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:20 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:21 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:21 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:21 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:21 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:22 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:22 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:22 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:22 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:22 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:22 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:23 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:23 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:24 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:24 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:24 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:24 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:24 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:24 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:25 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:25 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:25 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:25 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:25 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:25 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:27 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:27 UTC] PHP Warning:  require(/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tulgungp/public_html/vendor/composer/../paragonie/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/tulgungp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/composer/autoload_real.php(45): {closure}('3109cb1a231dcd0...', '/home/tulgungp/...')
+#1 /home/tulgungp/public_html/vendor/autoload.php(22): ComposerAutoloaderInit9c491b8531eec05ba41a11d9276a5749::getLoader()
+#2 /home/tulgungp/public_html/public/index.php(34): require('/home/tulgungp/...')
+#3 {main}
+  thrown in /home/tulgungp/public_html/vendor/composer/autoload_real.php on line 41
+[19-Apr-2026 17:03:38 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('view')
+#1 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('view')
+#2 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('view', Array)
+#5 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1454): Illuminate\Foundation\Application->make('view')
+#6 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Container\Container->offsetGet('view')
+#7 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance('view')
+#8 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(349): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#10 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#13 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#14 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Illuminate\Contracts\Container\BindingResolutionException))
+#15 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Illuminate\Contracts\Container\BindingResolutionException))
+#16 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#17 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('view')
+#1 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('view', Array, true)
+#2 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('view', Array)
+#3 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('view', Array)
+#4 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1454): Illuminate\Foundation\Application->make('view')
+#5 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Container\Container->offsetGet('view')
+#6 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance('view')
+#7 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(349): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#9 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(744): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(719): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#13 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Illuminate\Contracts\Container\BindingResolutionException))
+#14 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Illuminate\Contracts\Container\BindingResolutionException))
+#15 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#16 /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#18 {main}
+  thrown in /home/tulgungp/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914

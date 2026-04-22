@@ -167,12 +167,12 @@ class DashboardController extends Controller
     public function storeJadwal(Request $request)
     {
         $validated = $request->validate([
-            'personnel_id' => 'required|exists:personnels,id',
-            'tanggal'      => 'required|date',
-            'shift'        => 'required|string',
-            'lokasi_target'=> 'required|string',
-            'latitude'     => 'nullable',
-            'longitude'    => 'nullable',
+            'personnel_id'  => 'required|exists:personnels,id',
+            'tanggal'       => 'required|date',
+            'shift'         => 'required|string',
+            'lokasi_target' => 'required|string',
+            'latitude'      => 'nullable',
+            'longitude'     => 'nullable',
         ]);
         Schedule::create($validated);
         return back()->with('success', 'Jadwal berhasil ditambahkan');
@@ -187,9 +187,9 @@ class DashboardController extends Controller
     public function storeInstruksi(Request $request)
     {
         $request->validate([
-            'judul'         => 'required',
-            'tipe_instruksi'=> 'required',
-            'isi_instruksi' => 'required',
+            'judul'          => 'required',
+            'tipe_instruksi' => 'required',
+            'isi_instruksi'  => 'required',
         ]);
 
         Instruction::create([
@@ -239,7 +239,8 @@ class DashboardController extends Controller
         $personnels = Personnel::select(
                 'id', 'nama_lengkap', 'pangkat',
                 'latitude', 'longitude', 'status_aktif',
-                'foto_profil', 'nrp'
+                'foto_profil', 'nrp',
+                'speed', 'heading'   // ← untuk smooth interpolation
             )
             ->where('status_aktif', '!=', 'offline')
             ->whereNotNull('latitude')
@@ -267,6 +268,8 @@ class DashboardController extends Controller
                 'status_aktif' => (string) $p->status_aktif,
                 'foto_profil'  => $p->foto_profil,
                 'nrp'          => (string) ($p->nrp ?? ''),
+                'speed'        => (float)  ($p->speed   ?? 0),  // m/s
+                'heading'      => (float)  ($p->heading ?? 0),  // derajat
                 'schedules'    => $schedules,
                 'latest_instruction' => $instr ? [
                     'id'             => (int)    $instr->id,
@@ -284,7 +287,7 @@ class DashboardController extends Controller
             ->header('Expires', '0');
     }
 
-    // ── CHECKPOINT JSON — dengan field lengkap & URL media ────────
+    // ── CHECKPOINT JSON ───────────────────────────────────────────
     public function getCheckpointsJson()
     {
         $checkpoints = Report::where('tipe_laporan', 'checkpoint')
@@ -297,25 +300,25 @@ class DashboardController extends Controller
             $mediaUrl = null;
             $isVideo  = false;
             if ($item->foto_bukti) {
-                $ext     = strtolower(pathinfo($item->foto_bukti, PATHINFO_EXTENSION));
-                $isVideo = in_array($ext, ['mp4', 'mov', 'avi', '3gp', 'mkv', 'webm']);
+                $ext      = strtolower(pathinfo($item->foto_bukti, PATHINFO_EXTENSION));
+                $isVideo  = in_array($ext, ['mp4', 'mov', 'avi', '3gp', 'mkv', 'webm']);
                 $mediaUrl = url('/' . ltrim($item->foto_bukti, '/'));
             }
 
             return [
-                'id'               => $item->id,
-                'tipe_laporan'     => $item->tipe_laporan,
-                'judul'            => $item->judul_kejadian ?? '-',
-                'deskripsi'        => $item->deskripsi ?? '-',
-                'prioritas'        => $item->prioritas ?? 'normal',
-                'latitude'         => $item->latitude,
-                'longitude'        => $item->longitude,
-                'status'           => $item->status_penanganan,
-                'waktu'            => $item->created_at->format('d/m/Y H:i') . ' WIB',
-                'media_url'        => $mediaUrl,
-                'is_video'         => $isVideo,
-                'personnel_nama'   => $item->personnel->nama_lengkap ?? 'Petugas',
-                'personnel_pangkat'=> $item->personnel->pangkat ?? '-',
+                'id'                => $item->id,
+                'tipe_laporan'      => $item->tipe_laporan,
+                'judul'             => $item->judul_kejadian ?? '-',
+                'deskripsi'         => $item->deskripsi ?? '-',
+                'prioritas'         => $item->prioritas ?? 'normal',
+                'latitude'          => $item->latitude,
+                'longitude'         => $item->longitude,
+                'status'            => $item->status_penanganan,
+                'waktu'             => $item->created_at->format('d/m/Y H:i') . ' WIB',
+                'media_url'         => $mediaUrl,
+                'is_video'          => $isVideo,
+                'personnel_nama'    => $item->personnel->nama_lengkap ?? 'Petugas',
+                'personnel_pangkat' => $item->personnel->pangkat ?? '-',
             ];
         })->values();
 
@@ -340,12 +343,12 @@ class DashboardController extends Controller
         })->latest()->first();
 
         return response()->json([
-            'id'        => $l ? $l->id        : 0,
-            'judul'     => $l ? $l->judul      : '-',
+            'id'        => $l ? $l->id           : 0,
+            'judul'     => $l ? $l->judul         : '-',
             'isi'       => $l ? $l->isi_instruksi : '-',
-            'tipe'      => $l ? $l->tipe_instruksi : 'normal',
-            'latitude'  => $l ? $l->latitude  : null,
-            'longitude' => $l ? $l->longitude : null,
+            'tipe'      => $l ? $l->tipe_instruksi: 'normal',
+            'latitude'  => $l ? $l->latitude      : null,
+            'longitude' => $l ? $l->longitude     : null,
         ]);
     }
 

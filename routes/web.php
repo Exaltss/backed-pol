@@ -113,3 +113,15 @@ Route::get('/cleanup-storage-xyz', function () {
     }
     return "✅ $n file lama dihapus.";
 });
+
+Route::get('/run-speed-migration-xyz', function () {
+    \Illuminate\Support\Facades\Schema::table('personnels', function ($t) {
+        if (!\Illuminate\Support\Facades\Schema::hasColumn('personnels', 'speed')) {
+            $t->float('speed', 8, 2)->default(0);
+        }
+        if (!\Illuminate\Support\Facades\Schema::hasColumn('personnels', 'heading')) {
+            $t->float('heading', 8, 2)->default(0);
+        }
+    });
+    return '✅ Kolom speed & heading berhasil ditambahkan!';
+});
